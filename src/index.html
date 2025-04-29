@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javion Job page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="logo" src="https://jovian.com/jovian_logo.svg" alt="logo image">
+        </nav>
+        <img class="hero" src="img/hero.jpg" alt="hero image" width="400" height="400">
+    </header>
+
+    <main>
+       <article class="about">
+       <div class="description">
+        <h1>About Javion</h1>
+        <p>At Jovian, we're on a mission to build the world's most highly reputed technical university,and we're building it completely online. We offer several beginner friendly courses that are taken by 300,000+ regestered users.</p>
+        <br>
+        <p>We also offer 2 industry-focused bootcamps:
+            <br>
+            <br>
+            <ul>
+                <li><a href="#">Jovian Full Stack Developer Bootcamp</a></li>
+                <li><a href="#">Jovian Data Science Bootcamp</a></li>
+            </ul>
+        </p>
+       </div>
+        <div class="team-img"><img src="img/team.jpg" alt="A team of people discusing a something" width="100%" height="400"></div>
+       </article>
+
+       <article class="job-table">
+        <h2>Job Opportunities</h2>
+        <table class="table">
+            <tr>
+                <th>Job Title</th>
+                <th>Location</th>
+                <th>Salary</th>
+            </tr>
+           <tr>
+                <td>Frontend Developer</td>
+                <td>mogadishu,Somalia</td>
+                <td >10,000</td>
+            </tr>
+           <tr>
+                <td>Fullstack Developer</td>
+                <td>Hargaisa,Somalia</td>
+                <td >15,000</td>
+            </tr>
+           <tr>
+                <td>Backend Developer</td>
+                <td>Jubaland,Somalia</td>
+                <td >10,000</td>
+            </tr>
+           <tr>
+                <td>ML Engineer</td>
+                <td>mogadishu,Somalia</td>
+                <td >20,000</td>
+            </tr>
+           
+        </table>
+       </article>
+
+       <section>
+        <h3>Submit Your Application</h3>
+        <form action="https://formbold.com/s/3wGmY" 
+        method="POST"
+        enctype="multipart/form-data">
+            <div>
+                <label for="name">Full Name</label>
+                <input type="text" name="Full name" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="Email" id="email">
+            </div>
+            <div>
+                <label for="tel">Phone</label>
+                <input type="tel" name="Telphone" id="tel">
+            </div>
+            <div>
+                <label for="DoB">Date Of Birth</label>
+                <input type="date" name="DoB" id="DoB">
+            </div>
+            <div>
+                <label for="position">Position Applied For</label>
+                <select name="job-position" id="position">
+                    <option value="">Select a position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="fullstack developer">Fullstack Developer</option>
+                    <option value="backend developer">Backend Developer</option>
+                    <option value="ml engineer">ML Engineer</option>
+                </select>
+            </div>
+            <div>
+                <label for="resume">Upload Resume</label>
+                <input type="file" name="Resume" id="resume">
+            </div>
+            <div>
+                <label for="cover-later">Cover Later</label><br>
+                <textarea name="cover-later" id="cover-later" cols="30" rows="10" placeholder="Tell Us Why we choose you "></textarea>
+            </div>
+            <div>
+                <input class="checkbox" type="checkbox" name="terms" id="terms">
+                <label for="terms">I agree the terms and the conditions</label><br>
+            </div>
+          <button type="submit">Submit Application</button>
+        </form>
+       </section>
+
+       </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instigram</a></li>
+            <li><a href="#">Youtube</a></li>
+        </ul>
+        <p>&copy;2025, Javion</p>
+    </footer>
+</body>
+</html>
